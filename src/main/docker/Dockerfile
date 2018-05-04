@@ -17,7 +17,7 @@
 #
 # The actual image definition
 #
-FROM cafapi/opensuse-tomcat:3.2.0-SCMOD-3356-SNAPSHOT
+FROM cafapi/opensuse-tomcat:3
 
 RUN zypper -n update
 RUN zypper -n install cifs-utils
