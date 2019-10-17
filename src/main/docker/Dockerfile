@@ -17,7 +17,7 @@
 #
 # The actual image definition
 #
-FROM cafapi/opensuse-tomcat:3
+FROM cafinternal/prereleases:opensuse-tomcat-3.6.0-SNAPSHOT
 
 RUN zypper -n update
 RUN zypper -n install cifs-utils
