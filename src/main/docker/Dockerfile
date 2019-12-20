@@ -19,7 +19,7 @@
 #
 FROM cafapi/opensuse-tomcat:3
 
-RUN zypper -n update
+RUN zypper -n refresh
 RUN zypper -n install cifs-utils
 
 # Tag the image
