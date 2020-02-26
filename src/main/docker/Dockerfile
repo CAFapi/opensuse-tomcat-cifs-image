@@ -19,8 +19,9 @@
 #
 FROM cafinternal/prereleases:opensuse-tomcat-4.0.0-SNAPSHOT
 
-RUN zypper -n refresh
-RUN zypper -n install cifs-utils
+RUN zypper -n refresh && \
+    zypper -n update && \
+    zypper -n install cifs-utils
 
 # Tag the image
 ARG BUILD_NUMBER
