@@ -17,7 +17,7 @@
 #
 # The actual image definition
 #
-FROM cafapi/opensuse-tomcat:4
+FROM cafinternal/prereleases:opensuse-tomcat-5.0.0-SNAPSHOT
 
 RUN zypper -n refresh && \
     zypper -n update && \
