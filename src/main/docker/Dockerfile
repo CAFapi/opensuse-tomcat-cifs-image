@@ -17,7 +17,7 @@
 #
 # The actual image definition
 #
-FROM cafinternal/opensuse-tomcat-jre11:1
+FROM cafapi/opensuse-tomcat-jre11:1
 
 RUN zypper -n refresh && \
     zypper -n update && \
