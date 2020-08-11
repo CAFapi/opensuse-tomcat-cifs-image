@@ -17,7 +17,7 @@
 #
 # The actual image definition
 #
-FROM cafinternal/prereleases:opensuse-tomcat-jre11-2.1.1-SCMOD-10189-NewIssue-SNAPSHOT
+FROM cafinternal/prereleases:opensuse-tomcat-jre11-2.1.1-SNAPSHOT
 
 RUN zypper -n refresh && \
     zypper -n update && \
