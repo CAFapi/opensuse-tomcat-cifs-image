@@ -23,7 +23,7 @@
 
     <groupId>com.github.cafapi</groupId>
     <artifactId>opensuse-tomcat-cifs-image</artifactId>
-    <version>4.1.1-SNAPSHOT</version>
+    <version>4.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>openSUSE Tomcat image with cifs</name>
