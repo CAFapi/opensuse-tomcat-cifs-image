@@ -3,11 +3,10 @@
 ${version-number}
 
 #### New Features
- - **SCMOD-10189**:  Updated Tomcat base image.  
-  This has changes to meet the logging mandate by adding caf logging Tomcat juli project to Tomcat Java 11 image. 
+ - None 
 
 #### Bug Fixes
- - None
+ - SCMOD-10189: Fixed an issue with logging runtime dependencies.
 
 #### Known Issues
  - None
